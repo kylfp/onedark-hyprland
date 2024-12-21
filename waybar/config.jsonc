@@ -1,0 +1,72 @@
+[
+  // Bar 1440
+  {
+    "layer": "top",
+    "output": "DP-2",
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 40, // Waybar height (to be removed for auto height)
+    "width": 2540, // Waybar width
+    "spacing": 10, // Gaps between modules (4px)
+
+    "include": [
+      "~/.config/waybar/shared-modules.jsonc",
+    ],
+
+    // Module Placement
+    "modules-left": [
+      "custom/launcher",
+      // "sway/workspaces",
+      "hyprland/workspaces",
+    ],
+    "modules-center": [
+      "clock",
+      "custom/date",
+      "custom/notification",
+    ],
+    "modules-right": [
+      "custom/hyprpicker",
+      "custom/hyprsunset",
+      "custom/screenshot",
+      "network",
+      "pulseaudio",
+      "bluetooth",
+      "group/hide-tray",
+    ],
+
+    // Module Configuration
+  },
+
+  // Bar 1080
+  {
+    "layer": "top",
+    "output": "DP-3",
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 36, // Waybar height (to be removed for auto height)
+    "width": 1885, // Waybar width
+    "spacing": 10, // Gaps between modules (4px)
+
+    "include": [
+      "~/.config/waybar/shared-modules.jsonc",
+    ],
+
+    // Module Placement
+    "modules-left": [
+      "custom/launcher",
+      "hyprland/workspaces",
+    ],
+    "modules-center": [
+      "clock",
+      "custom/date",
+      "custom/notification",
+    ],
+    "modules-right": [
+      "custom/hyprpicker",
+      "custom/hyprsunset",
+      "custom/screenshot",
+      "network",
+      "pulseaudio",
+      "bluetooth",
+      "group/hide-tray",
+    ],
+  },
+]

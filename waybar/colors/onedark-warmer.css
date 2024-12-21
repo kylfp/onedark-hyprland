@@ -1,0 +1,21 @@
+/*
+*
+* OneDark Warmer
+*
+*/
+
+@define-color black     #101012;
+@define-color bg0       #232326;
+@define-color bg1       #2c2d31;
+@define-color bg2       #35363b;
+@define-color bg3       #37383d;
+@define-color bg_d      #1b1c1e;
+@define-color fg        #a7aab0;
+@define-color purple    #bb70d2;
+@define-color green     #8fb573;
+@define-color orange    #c49060;
+@define-color blue      #57a5e5;
+@define-color yellow    #dbb671;
+@define-color cyan      #51a8b3;
+@define-color red       #de5d68;
+@define-color grey      #5a5b5e;
