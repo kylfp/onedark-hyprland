@@ -1,0 +1,122 @@
+@import "colors/onedark-darker.css";
+
+* {
+  font-family: Titillium;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+window#waybar > box {
+  margin: 16px 8px 0px 8px;
+  background-color: @bg1;
+  border: solid 3px @red;
+  border-radius: 6px;
+  padding: 5px;
+}
+
+#battery,
+#bluetooth,
+#clock,
+#custom-date,
+#custom-hyprpicker,
+#custom-hyprsunset,
+#custom-launcher,
+#custom-notification,
+#custom-screenshot,
+#custom-tray-icon,
+#network,
+#pulseaudio,
+#window,
+#workspaces {
+  background-color: @bg3;
+  border-radius: 5px;
+  color: @blue;
+  border-color: @blue;
+}
+
+#battery {
+  padding: 0px 10px 0px 7px;
+}
+
+#bluetooth {
+  padding: 0px 11px 0px 10px;
+}
+
+#clock {
+  padding: 0px 6px 0px 4px;
+}
+
+#custom-date {
+  padding: 0px 6px 0px 4px;
+}
+
+#custom-hyprpicker {
+  padding: 0px 6px 0px 6px;
+}
+
+#custom-hyprsunset {
+  padding: 0px 12px 0px 10px;
+}
+
+#custom-launcher {
+  padding: 0px 16px 0px 5px;
+}
+
+#custom-notification {
+  padding: 0px 14px 0px 8px;
+}
+
+#custom-screenshot {
+  padding: 0px 15px 0px 7px;
+}
+
+#custom-tray-icon {
+  padding: 0px 13px 0px 9px;
+}
+
+#network {
+  padding: 0px 16px 0px 7px;
+}
+
+#pulseaudio {
+  padding: 0px 10px 0px 7px;
+}
+
+#workspaces {
+  padding: 0px 6px 0px 4px;
+}
+
+#workspaces button {
+  border-radius: 2px;
+  color: @fg;
+  background-color: @bg3;
+  margin: 0px;
+  padding: 0px 3px 0px 3px;
+}
+
+#workspaces button:hover {
+  background: @bg3;
+  border: none;
+  border-color: @bg3;
+  color: @fg;
+  box-shadow: inherit;
+  text-shadow: inherit;
+}
+
+#workspaces button.visible {
+  color: @blue;
+  background-color: @bg3;
+}
+
+#workspaces button.active {
+  color: @red;
+  background-color: @bg3;
+}
+
+#tray {
+  /* margin-bottom: 0px; */
+}

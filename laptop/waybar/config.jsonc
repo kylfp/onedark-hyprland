@@ -1,0 +1,39 @@
+[
+  // Bar 1440
+  {
+    "layer": "top",
+    "output": "eDP-1",
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 60, // Waybar height (to be removed for auto height)
+    "width": 1895, // Waybar width
+    "spacing": 10, // Gaps between modules (4px)
+
+    "include": [
+      "~/.config/waybar/shared-modules.jsonc",
+    ],
+
+    // Module Placement
+    "modules-left": [
+      "custom/launcher",
+      // "sway/workspaces",
+      "hyprland/workspaces",
+    ],
+    "modules-center": [
+      "clock",
+      "custom/date",
+      "custom/notification",
+    ],
+    "modules-right": [
+      "custom/hyprpicker",
+      "custom/hyprsunset",
+      "custom/screenshot",
+      "network",
+      "pulseaudio",
+      "battery",
+      "bluetooth",
+      "group/hide-tray",
+    ],
+
+    // Module Configuration
+  },
+]
